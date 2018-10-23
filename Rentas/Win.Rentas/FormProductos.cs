@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Win.Rentas
 {
-    public partial class Form1 : Form
+    public partial class FormProductos : Form
     {
-        public Form1()
+        public FormProductos()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hola Mundo! Le saluda Edwin Murillo");
         }
     }
 }
